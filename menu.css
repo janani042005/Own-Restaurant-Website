@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+
+.container{  
+    min-height: 100vh;
+    width: 100%; 
+    background-image: url(./menupc.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 40%;
+    background-color: black;
+}
+
+header img{
+    height: 70px;
+    width: 150px;
+    margin-left: 40px; 
+    background-color: aliceblue; 
+}
+
+
+nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+    /* background-color: brown; */
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+nav li{
+    list-style-type: none;
+}
+
+.menu{
+    color: white;
+    font-size: 250%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 250%;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.wholecards{
+    height: 380px;
+    width: 85%;
+    margin: 10px auto;
+    background-color: red;
+    display: flex;
+    gap: 480px;
+}
+
+.cards1 img{
+    height: 90px;
+    width: 100px;
+    padding: 5px;
+}
+
+.cards2 img{
+    height: 90px;
+    width: 100px;
+    padding: 5px;
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    align-items: flex-start;
+    gap:15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    font-weight: bold;
+}
+
+.pi_content{
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.lasagna{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    font-weight: bold;
+}
+
+.la_content{
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.burger{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    font-weight: bold;
+}
+
+.bur_content{
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.pasta{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    font-weight: bold;
+
+}
+
+.pa_content{
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+ 
+.price{
+    margin-left: 100px ;
+    background-color: brown;
+}
