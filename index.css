@@ -17,14 +17,15 @@ header{
     width: 100%;
     display: flex;
     gap: 40%;
-    /* background-color: aqua; */
+    background-color: black;  
 }
 
 header img{
     height: 70px;
     width: 150px;
     margin-left: 40px; 
-    background-color: black;  
+    /* background-color: black;   */
+    background-color: aliceblue; 
 }
 
 
@@ -48,7 +49,7 @@ nav li{
 
 .welcome_text{
   font-family: 'Dancing Script', cursive;
-  font-size: 32px;
+  font-size: 38px;
   color: white;
   margin-top: 100px;
   text-align: center;
@@ -75,4 +76,7 @@ nav li{
     cursor: pointer;
 }
 
-
+a:hover{
+    text-decoration: underline;
+    /* color: orange; */
+}

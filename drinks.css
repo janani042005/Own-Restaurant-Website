@@ -70,12 +70,6 @@ nav li{
     /* margin-top: 20px; */
 
 }
-
-.menu1{
-    background-color: orange;
-    color: white;
-}
-
 .menu1,.menu2,.menu3,.menu4{
     /* color: white; */
     border-radius: 50px;
@@ -89,6 +83,10 @@ nav li{
     cursor: pointer;
     /* margin-left: 90px; */
 }
+/* .menu2{
+    background-color: orange;
+    color: white;
+} */
 
 .all{
     width: 900px;
