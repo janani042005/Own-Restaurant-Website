@@ -165,3 +165,48 @@ nav li{
 .contact-form button:hover{
     background: #e69500;
 }
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    header img{
+        margin-left: 0;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .contact-section h2{
+        font-size: 28px;
+    }
+
+    .subtitle{
+        font-size: 14px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    .contact-info{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-info img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }

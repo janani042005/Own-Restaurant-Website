@@ -109,3 +109,84 @@ h5{
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.85);
 }
+
+/* ================= TABLET VIEW ================= */
+@media (max-width: 1024px) {
+
+    header{
+        gap: 20%;
+        padding: 10px;
+    }
+
+    nav ul{
+        width: 300px;
+        gap: 10%;
+    }
+
+    .aboutus{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .aboutus img{
+        width: 350px;
+    }
+
+    .about{
+        padding: 0 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    header img{
+        margin-left: 0;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    .aboutus{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .aboutus img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .about li{
+        font-size: 18px;
+    }
+
+    .about p{
+        font-size: 14px;
+    }
+}
+
+
